@@ -59,7 +59,10 @@ header a{
     color: white;
 }
 header img{
-    max-width: 94vw;
+    max-width: 450px;
+    margin-top: 20px;
+    display: block;
+    margin: auto;
     margin-top: 20px;
 }
 /*.comentarios{

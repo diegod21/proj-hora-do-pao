@@ -8,3 +8,104 @@
   tablet 768 até 992
   Desktop: 992 até 1200px 
   big screens above 1220px*/
+
+  @media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+      background-color: #712B2C;
+    }
+    header{
+      margin: auto;
+      height: 900px;
+      width: 700px;
+      background-color: white;
+    }
+    header img{
+      max-width: 600px;
+      display: block;
+      margin: auto;
+      margin-top: 20px;
+    }
+    main{
+      margin: auto;
+      width: 700px;
+      background-color: white;
+    }
+    footer{
+    overflow: hidden;
+    background-color: white;
+    width: 700px;
+    margin: auto;
+}
+    .square{
+      /* Largura */
+      width: 200px;
+      /* Altura */
+      height: 200px;
+      /* Posição relativa */
+      position: relative;
+      /* e flutuação a esquerda */
+      float: left;
+  }
+  .responsive{
+    width: 600px;
+    height: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+    
+  }
+
+
+
+
+  @media screen and (min-width: 1000px) {
+    body{
+      background-color: #712B2C;
+    }
+    header{
+      margin: auto;
+      height: 1000px;
+      width: 1000px;
+      background-color: white;
+    }
+    header img{
+      max-width:800px;
+      display: block;
+      margin: auto;
+      margin-top: 20px;
+    }
+    main{
+      margin: auto;
+      width: 1000px;
+      background-color: white;
+    }
+    main img{
+      padding: 5px;
+    }
+    footer{
+    overflow: hidden;
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    padding-top: 20px;
+}
+    .square{
+      /* Largura */
+      width: 333px;
+      /* Altura */
+      height: 200px;
+      /* Posição relativa */
+      position: relative;
+      /* e flutuação a esquerda */
+      float: left;
+  }
+  .responsive{
+    width: 1000px;
+    height: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+  
+  }
