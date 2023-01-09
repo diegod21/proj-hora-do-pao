@@ -67,10 +67,11 @@ header img{
     margin: auto;
     margin-top: 20px;
 }
-/*.comentarios{
-    background-color: aqua;
-    height: 1000px;
-}*/
+.comentarios{
+    background-color: white;
+    max-width: 350px;
+    margin: auto;
+}
 main{
     text-align: center;
   
