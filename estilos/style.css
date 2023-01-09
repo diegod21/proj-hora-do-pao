@@ -5,13 +5,10 @@
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-html{
-    overflow-x:hidden;
-    
-    }
+
 nav{
     height: 60px;
-    width: 100vw;
+    width: 100%;
     background-color: white;
     position: fixed;
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.205);
@@ -74,7 +71,7 @@ header img{
 }
 .comentarios{
     background-color: aqua;
-    max-width: 350px;
+    width: 350px;
     margin: auto;
 }
 main{
@@ -90,12 +87,12 @@ main img{
     margin: auto;
 }
 div.maps iframe{
-    max-width: 350px;
+    width: 350px;
     margin: auto;
 }
 footer{
     text-align: center;
-    max-width: 400px;
+    width: 400px;
     background-color: aqua;
     margin: auto;
 }
