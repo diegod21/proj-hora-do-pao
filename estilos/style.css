@@ -43,6 +43,7 @@ header{
     height: 620px;
     text-align: center;
     background-color: white;
+    margin: auto;
 }
 header h1{
     font-family: 'Dancing Script', cursive;
@@ -77,9 +78,11 @@ main{
 main img{
     max-width: 300px;
     margin-bottom: 20px;
+    margin: auto;
 }
 div.maps iframe{
     max-width: 420px;
+    margin: auto;
 }
 footer{
     text-align: center;
