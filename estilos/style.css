@@ -8,7 +8,7 @@
 
 nav{
     height: 60px;
-    width: 100%;
+    width: 100vw;
     background-color: white;
     position: fixed;
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.205);
@@ -42,9 +42,9 @@ nav a:hover{
 header{
     padding-top: 100px;
     height: 620px;
-    width: 380px;
+    width: 90vw;
     text-align: center;
-    background-color: aqua;
+    background-color: white;
     margin: auto;
 }
 header h1{
@@ -70,14 +70,14 @@ header img{
     margin-top: 20px;
 }
 .comentarios{
-    background-color: aqua;
-    width: 350px;
+    background-color: white;
+    width: 90vw;
     margin: auto;
 }
 main{
     text-align: center;
-    background-color: aqua;
-    width: 400px;
+    background-color: white;
+    width: 90vw;
     margin: auto;
   
 }
@@ -86,14 +86,17 @@ main img{
     margin-bottom: 20px;
     margin: auto;
 }
+.galeria img{
+    margin-bottom: 10px;
+}
 div.maps iframe{
     width: 350px;
     margin: auto;
 }
 footer{
     text-align: center;
-    width: 400px;
-    background-color: aqua;
+    width: 90vw;
+    background-color: white;
     margin: auto;
 }
 div.feet{
