@@ -87,11 +87,13 @@ div.maps iframe{
 }
 footer{
     text-align: center;
+    max-width: 400px;
+    background-color: aqua;
+    margin: auto;
 }
 div.feet{
     width: 100%;
     height: 220px;
-    
 }
 div.feet h1 , div.feet p , .feet ul {
     text-align: center;
