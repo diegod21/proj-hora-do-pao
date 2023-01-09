@@ -61,7 +61,7 @@ header a{
     color: white;
 }
 header img{
-    max-width: 450px;
+    max-width: 350px;
     margin-top: 20px;
     display: block;
     margin: auto;
@@ -81,7 +81,7 @@ main img{
     margin: auto;
 }
 div.maps iframe{
-    max-width: 420px;
+    max-width: 350px;
     margin: auto;
 }
 footer{
