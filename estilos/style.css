@@ -5,9 +5,13 @@
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+html{
+    overflow-x:hidden;
+    
+    }
 nav{
     height: 60px;
-    width: 100%;
+    width: 100vw;
     background-color: white;
     position: fixed;
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.205);
@@ -41,8 +45,9 @@ nav a:hover{
 header{
     padding-top: 100px;
     height: 620px;
+    width: 380px;
     text-align: center;
-    background-color: white;
+    background-color: aqua;
     margin: auto;
 }
 header h1{
@@ -68,12 +73,15 @@ header img{
     margin-top: 20px;
 }
 .comentarios{
-    background-color: white;
+    background-color: aqua;
     max-width: 350px;
     margin: auto;
 }
 main{
     text-align: center;
+    background-color: aqua;
+    width: 400px;
+    margin: auto;
   
 }
 main img{
