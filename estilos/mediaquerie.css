@@ -25,6 +25,9 @@
       margin: auto;
       margin-top: 20px;
     }
+    .comentarios{
+      width: 700px;
+    }
     main{
       margin: auto;
       width: 700px;
@@ -54,8 +57,7 @@
     position: relative;
 }
 .sociais{
-  width: 700px;
-  margin: auto;
+  width: 100px;
 }
     
   }
@@ -117,8 +119,7 @@
     position: relative;
 }
 .sociais{
-  width: 1000px;
-  margin: auto;
+
 }
   
   }
